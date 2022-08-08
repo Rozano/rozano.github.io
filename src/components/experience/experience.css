@@ -1,0 +1,15 @@
+.experience {
+    background-color: #FAF9F6;
+    padding: 50px;
+    color: #36454F;
+}
+
+.experience h2 {
+    color: #36454F;
+    font-size: 50px;
+}
+
+.experience-logo {
+    width: 100px;
+    height: 100px;
+}

@@ -1,0 +1,22 @@
+.about {
+    background-color: #FAF9F6;
+    padding: 50px;
+    color: #36454F;
+}
+
+.about-container {
+    display: flex;
+    z-index: 1;
+}
+
+.about-photo {
+    width: 300px;
+    height: auto;
+    border-radius: 300px;
+    z-index: -1;
+}
+
+.about h2 {
+    color: #36454F;
+    font-size: 50px;
+}
