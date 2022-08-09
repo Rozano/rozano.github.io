@@ -7,6 +7,26 @@
   pointer-events: none;
 }
 
+.line-dark {
+  border-top: 1px solid #36454F;
+  margin-bottom: 50px;
+}
+
+.line-light {
+  border-top: 1px solid #FAF9F6;
+  margin-bottom: 50px;
+}
+
+.header-title-dark {
+  color: #36454F;
+  font-size: 30px;
+}
+
+.header-title-light {
+  color: #FAF9F6;
+  font-size: 30px;
+}
+
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;

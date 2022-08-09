@@ -7,26 +7,45 @@ import Dolume from '../images/dolume.png'
 const Experience = () => {
     return (
         <div className='experience' id='experience'>
-            <h2>Experience</h2>
+            <h2 className='header-title-dark'>Experience</h2>
+            <div className='line-dark' />
             <div className='experience-container'>
-                <img className='experience-logo' src={Reggora} alt='photo'/>
-                <h2>Reggora</h2>
-                <p>February 2021 - May 2022</p>
-                <p>Software QA Engineer</p>
-                <p>JOB DESC</p>
-                <p>Boston, MA</p>
-                <img className='experience-logo' src={WIT} alt='photo'/>
-                <h2>Wentworth Institute of Technology</h2>
-                <p>September 2020 - December 2020</p>
-                <p>Mobile Application Developer</p>
-                <p>JOB DESC</p>
-                <p>Boston, MA</p>
-                <img className='experience-logo' src={Dolume} alt='photo'/>
-                <h2>Dolume</h2>
-                <p>January 2019 - April 2019</p>
-                <p>Technology Consultant Intern</p>
-                <p>JOB DESC</p>
-                <p>Boston, MA</p>
+                <div className='experience-entry'>
+                    <div className='experience-left'>
+                        <img src={Reggora} alt='photo'/>
+                        <p>February 2021 - May 2022</p>
+                    </div>
+                    <div className='experience-desc'>
+                        <h3>Reggora</h3>
+                        <p>Software QA Engineer</p>
+                        <p>JOB DESC</p>
+                        <p>Boston, MA</p>
+                    </div>
+                </div>
+                <div className='experience-entry' id='mid'>
+                    <div className='experience-left'>
+                        <img src={WIT} alt='photo'/>
+                        <p>September 2020 - December 2020</p>
+                    </div>
+                    <div className='experience-desc'>
+                        <h3>Wentworth Institute of Technology</h3>
+                        <p>Mobile Application Developer</p>
+                        <p>JOB DESC</p>
+                        <p>Boston, MA</p>
+                    </div>
+                </div>
+                <div className='experience-entry'>
+                    <div className='experience-left'>
+                        <img src={Dolume} alt='photo'/>
+                        <p>January 2019 - April 2019</p>
+                    </div>
+                    <div className='experience-desc'>
+                        <h3>Dolume</h3>
+                        <p>Technology Consultant Intern</p>
+                        <p>JOB DESC</p>
+                        <p>Boston, MA</p>
+                    </div>
+                </div>
             </div>
         </div>
     )

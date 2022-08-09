@@ -5,10 +5,31 @@
     color: #FAF9F6;
 }
 
-.education-container {
+.school-container {
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.school {
+    display: flex;
+    flex-direction: row;
+}
+
+.school-desc-1 {
+    text-align: left;
+    margin-left: 50px;
+}
+
+.school-desc-2 {
+    text-align:right;    
+    margin-right: 100px;
 }
 
 .school-logo {
     width: 150px;
     height: 150px;
+    margin-left: 100px;
 }
