@@ -9,12 +9,20 @@
 
 .line-dark {
   border-top: 1px solid #36454F;
+  width: 5%;
+  margin-left: auto;
+  margin-right: auto;
   margin-bottom: 50px;
+  margin-top: -20px;
 }
 
 .line-light {
   border-top: 1px solid #FAF9F6;
+  width: 5%;
+  margin-left: auto;
+  margin-right: auto;
   margin-bottom: 50px;
+  margin-top: -20px;
 }
 
 .header-title-dark {

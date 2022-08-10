@@ -46,11 +46,11 @@
     transition: all .5s ease-in-out;
 }
 
-.first {
+#first {
     margin-top: 50px;
 }
 
-.navbar-menu-container li {
+.navbar-menu-item {
     font-size: 20px;
     padding-bottom: 15px;
     padding-top: 15px;
@@ -61,7 +61,7 @@
     text-align: center;
 }
 
-.navbar-menu-container li:hover {
+.navbar-menu-item:hover {
     background-color: #FAF9F6;
     color: #36454F;
     transition: all .5s ease-in-out;
