@@ -3,10 +3,12 @@ import './experience.css'
 import WIT from '../images/wit_new.webp'
 import Reggora from '../images/reggora.webp'
 import Dolume from '../images/dolume.png'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faLocationDot } from '@fortawesome/free-solid-svg-icons'
 
 const Experience = () => {
     return (
-        <div className='experience' id='experience'>
+        <div className='experience'>
             <h2 className='header-title-dark'>Experience</h2>
             <div className='line-dark' />
             <div className='experience-container'>
@@ -19,7 +21,10 @@ const Experience = () => {
                         <h3>Reggora</h3>
                         <p>Software QA Engineer</p>
                         <p>JOB DESC</p>
-                        <p>Boston, MA</p>
+                        <div className='experience-location'>
+                            <FontAwesomeIcon icon={faLocationDot} className='experience-location-icon' />
+                            <p>Boston, MA</p>
+                        </div>
                     </div>
                 </div>
                 <div className='experience-entry' id='mid'>
@@ -31,7 +36,10 @@ const Experience = () => {
                         <h3>Wentworth Institute of Technology</h3>
                         <p>Mobile Application Developer</p>
                         <p>JOB DESC</p>
-                        <p>Boston, MA</p>
+                        <div className='experience-location'>
+                            <FontAwesomeIcon icon={faLocationDot} className='experience-location-icon' />
+                            <p>Boston, MA</p>
+                        </div>
                     </div>
                 </div>
                 <div className='experience-entry'>
@@ -43,7 +51,10 @@ const Experience = () => {
                         <h3>Dolume</h3>
                         <p>Technology Consultant Intern</p>
                         <p>JOB DESC</p>
-                        <p>Boston, MA</p>
+                        <div className='experience-location'>
+                            <FontAwesomeIcon icon={faLocationDot} className='experience-location-icon' />
+                            <p>Boston, MA</p>
+                        </div>
                     </div>
                 </div>
             </div>

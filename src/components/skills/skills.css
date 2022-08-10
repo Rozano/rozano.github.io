@@ -4,3 +4,28 @@
     padding: 50px;
     color: #36454F;
 }
+
+.skills-list {
+    display: inline-flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 80%;
+}
+
+.skills-list p {
+    background-color: #36454F;
+    color: #FAF9F6;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px, rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
+    width: 100px;
+    height: 50px;
+    padding: 10px;
+    line-height: 50px;
+    text-align: center;
+    margin: 10px;
+}
+
+.skill-list li:hover {
+    width: 150px;
+    height: 75px;
+}

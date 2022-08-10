@@ -8,7 +8,7 @@ import { Link, animateScroll as scroll } from "react-scroll";
 
 const Header = () => {
     return (
-        <div className='header' id='header'>
+        <div className='header'>
             <Particles />
             <h1 className='header-name'>MAXIMILIAN ROZANO</h1>
             <h2 className='header-title'>SOFTWARE QA ENGINEER</h2>

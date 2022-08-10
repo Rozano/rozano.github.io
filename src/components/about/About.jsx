@@ -7,7 +7,7 @@ import 'aos/dist/aos.css'
 const About = () => {
     AOS.init();
     return (
-        <div className='about' id='about'>
+        <div className='about'>
             <h2 className='header-title-dark' data-aos="fade-down" data-aos-duration="500">About Me</h2>
             <div className='line-dark' />
             <div className='about-container' data-aos="fade-left" data-aos-duration="1000">

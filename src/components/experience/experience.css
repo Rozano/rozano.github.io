@@ -42,3 +42,13 @@
     margin-top: 50px;
     margin-bottom: 50px;
 }
+
+.experience-location {
+    display: inline-flex;
+    color: #FAF9F6;
+}
+
+.experience-location-icon {
+    padding-top: 15px;
+    padding-right: 15px;
+}

@@ -33,3 +33,13 @@
     height: 150px;
     margin-left: 100px;
 }
+
+.school-location {
+    display: inline-flex;
+    color: #FAF9F6;
+}
+
+.school-location-icon {
+    padding-top: 15px;
+    padding-right: 15px;
+}

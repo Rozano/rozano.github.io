@@ -2,10 +2,12 @@ import React from 'react'
 import './education.css'
 import SPP from '../images/spp.png'
 import WIT from '../images/wit_new.webp'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faLocationDot } from '@fortawesome/free-solid-svg-icons'
 
 const Education = () => {
     return (
-        <div className='education' id='education'>
+        <div className='education'>
             <h2 className='header-title-light'>Education</h2>
             <div className='line-light' />
             <div className='education-container'>
@@ -20,7 +22,10 @@ const Education = () => {
                     <div className='school-desc-2'>
                         <p>Bachelor's of Science in Computer Science</p>
                         <p>Minor in Applied Mathematics</p>
-                        <p>Boston, MA</p>
+                        <div className='school-location'>
+                            <FontAwesomeIcon icon={faLocationDot} className='school-location-icon' />
+                            <p>Boston, MA</p>
+                        </div>
                     </div>
                 </div>
                 <div className='school-container'>
@@ -33,7 +38,10 @@ const Education = () => {
                     </div>
                     <div className='school-desc-2'>
                         <p>High School Education</p>
-                        <p>Jersey City, NJ</p>
+                        <div className='school-location'>
+                            <FontAwesomeIcon icon={faLocationDot} className='school-location-icon' />
+                            <p>Jersey City, NJ</p>
+                        </div>
                     </div>
                 </div>
             </div>
