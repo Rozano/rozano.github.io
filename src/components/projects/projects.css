@@ -4,3 +4,12 @@
     padding: 50px;
     color: #FAF9F6;
 }
+
+.project-entry {
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px, rgba(0, 0, 0, 0.06) 0px 2px 4px -1px; 
+    background-color: #FAF9F6;
+    color: #36454F;
+    width: 75%;
+    margin-left: auto;
+    margin-right: auto;
+}

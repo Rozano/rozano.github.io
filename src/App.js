@@ -7,8 +7,11 @@ import Navbar from './components/navbar/Navbar'
 import Projects from './components/projects/Projects'
 import Skills from './components/skills/Skills'
 import Footer from './components/footer/Footer'
+import AOS from 'aos'
+import 'aos/dist/aos.css'
 
 function App() {
+  AOS.init();
   return (
     <div className="App">
       <Navbar />

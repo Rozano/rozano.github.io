@@ -7,11 +7,30 @@
 .about-container {
     display: flex;
     z-index: 1;
+    justify-content: center;
 }
 
 .about-photo {
-    width: 300px;
+    width: 250px;
     height: auto;
     border-radius: 300px;
     z-index: -1;
+}
+
+.about-location {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: -15px;
+}
+
+.about-location-icon {
+    padding-top: 15px;
+    padding-right: 15px;
+}
+
+.about-bio {
+    width: 50%;
+    margin-left: 100px;
+    text-align:right;
 }

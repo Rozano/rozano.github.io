@@ -25,7 +25,8 @@
     margin: 10px;
 }
 
-.skill-list li:hover {
-    width: 150px;
-    height: 75px;
+.skills-list p:hover {
+    background-color: #FAF9F6;
+    color: #36454F;
+    transition: all .5s ease-in-out;
 }

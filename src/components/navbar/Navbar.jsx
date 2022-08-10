@@ -6,8 +6,6 @@ import { RiCloseCircleFill, RiMenuFill, RiMenuUnfoldLine, RiMenuFoldLine } from 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faBarsStaggered, faBars, faCircleXmark } from '@fortawesome/free-solid-svg-icons'
 import {Link} from 'react-scroll'
-// import { FaBars } from 'react-icons/fa'
-import About from '../about/About'
 
 const Navbar = () => {
     const [toggleMenu, setToggleMenu] = useState(false);
@@ -16,7 +14,7 @@ const Navbar = () => {
         <div className='navbar-container'>
             {toggleMenu
                     ? <FontAwesomeIcon icon={faCircleXmark} className='navbar-close' data-aos="fade-right" onClick={() => setToggleMenu(false)} />
-                    : <FontAwesomeIcon icon={faBars} className='navbar-open' data-aos="fade-left" onClick={() => setToggleMenu(true)} />}
+                    : <FontAwesomeIcon icon={faBars} className='navbar-open' onClick={() => setToggleMenu(true)} />}
                 {toggleMenu && (
                     <ul className="navbar-menu-container" data-aos="fade-right" style={{ listStyle: 'none' }}>
                         <Link className='navbar-menu-item' id='first' to="header" spy={true}>Resume</Link>
