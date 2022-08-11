@@ -21,7 +21,8 @@ const About = () => {
                 </div>
                 <div className='about-bio'>
                     <h3>About Me</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime quod suscipit labore sunt. Quam necessitatibus expedita unde debitis quo impedit repellendus hic velit enim dolor ducimus, minus fugiat! Atque, quia!</p>
+                    <p>Howdy, I'm Max. I'm a bit of a software enthusiast, especially when it comes to frontend work. I also have strong fundementals in quality assurance, which is my current occupation and what I hope to continue to grow in.</p>
+                    <p>Outside of work, I'm typically either at the gym, playing video games, painting WH40k miniatures, or programming for my own personal growth. Feel free to reach out with any questions - my contact info's at the bottom.</p>
                 </div>
             </div>
         </div>

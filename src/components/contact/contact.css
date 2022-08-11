@@ -1,0 +1,31 @@
+.contact {
+    background-color: #36454F;
+    color: #FAF9F6;
+    padding: 10px;
+}
+
+.contact-container {
+    display: inline-flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.contact-link {
+    text-decoration: none;
+    color: #FAF9F6;
+    margin: 30px;
+    font-size: 20px;
+}
+
+.contact-link:hover {
+    text-decoration: underline;
+}
+
+#phone {
+    cursor: text;
+}
+
+#phone:hover {
+    text-decoration: none;
+}

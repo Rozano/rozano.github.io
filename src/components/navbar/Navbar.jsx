@@ -23,7 +23,7 @@ const Navbar = () => {
                         <Link className='navbar-menu-item' to="experience" spy={true}>Experience</Link>
                         <Link className='navbar-menu-item' to="projects" spy={true}>Projects</Link>
                         <Link className='navbar-menu-item' to="skills" spy={true}>Skills</Link>
-                        <Link className='navbar-menu-item' to="/" spy={true}>Contact</Link>
+                        <Link className='navbar-menu-item' to="contact" spy={true}>Contact</Link>
                     </ul>
 
                         /* <a className='first' style={{ textDecoration: 'none' }} href='../header/#header'>Resume</a>

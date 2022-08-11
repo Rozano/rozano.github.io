@@ -1,0 +1,27 @@
+.footer {
+    color: #FAF9F6;
+    background-color: #36454F;
+    font-style: italic;
+    padding: 50px;
+}
+
+.footer-icon {
+    color: #36454F;
+    font-size: 50px;
+    stroke: #FAF9F6;
+    stroke-width: 20px;
+    cursor: pointer;
+    transform: rotateX(180deg);
+}
+
+.footer-icon:hover {
+    transition: all .5s ease-in-out;
+    color: white;
+}
+
+.footer-icon-container {
+    margin-top: 10px;
+}
+
+@keyframes bounce-up { 0% { transform: translateY(0); } 100% { transform: translateY(10px); } }
+.footer-icon { animation: bounce-up 0.7s infinite alternate; }

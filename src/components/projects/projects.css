@@ -8,8 +8,93 @@
 .project-entry {
     box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px, rgba(0, 0, 0, 0.06) 0px 2px 4px -1px; 
     background-color: #FAF9F6;
-    color: #36454F;
-    width: 75%;
+    color: #36454f;
+    width: 70%;
     margin-left: auto;
     margin-right: auto;
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 50px;
+    margin-top: 50px;
 }
+
+.project-entry:hover .line-dark-lite {
+    border-top: 1px solid rgba(54, 69, 79, 0.25);
+    transition: all .5s ease-in-out;
+}
+
+.project-entry:hover {
+    color: rgba(54, 69, 79, 0.25);
+    transition: all .5s ease-in-out;
+}
+
+.project-photo {
+    height: 200px;
+    width: auto;
+}
+
+.project-entry:hover .project-photo {
+    opacity: 25%;
+    transition: all .5s ease-in-out;
+}
+
+.project-desc {
+    padding: 10px;
+}
+
+.project-desc p {
+    text-align: left;
+}
+
+.project-link {
+    position: absolute;
+    width: 150px;
+    height: 30px;
+    padding: 10px;
+    color: #36454f;
+    background-color: #FAF9F6;
+    opacity: 0%;
+    font-size: 25px;
+    text-decoration: none;
+    border: 2px solid #36454f;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    text-align: center;
+    margin-top: 22px;
+}
+
+#second-button {
+    margin-top: 125px;
+}
+
+.project-link:hover {
+    cursor: pointer;
+    color: #FAF9F6;
+    background-color: #36454F;
+}
+
+.project-buttons {
+    display: flex;
+    flex-direction: row;
+}
+
+.project-icon {
+    margin-right: 5px;
+}
+
+.project-entry:hover .project-link {
+    opacity: 100%;
+    transition: all .5s ease-in-out;
+}
+
+@keyframes project-bounce-up { 0% { transform: translateY(-2px); } 100% { transform: translateY(2px); } }
+.project-link { animation: project-bounce-up 1.2s infinite alternate; }
+
+@keyframes project-bounce-down { 0% { transform: translateY(2px); } 100% { transform: translateY(-2px); } }
+#second-button { animation: project-bounce-down 1.2s infinite alternate; }

@@ -43,7 +43,6 @@ html {
     text-decoration: none;
     color: #FAF9F6;
     border: 2px solid #FAF9F6;
-    border-radius: 100px;
     background: none;
     padding: 15px;
     box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px, rgba(0, 0, 0, 0.06) 0px 2px 4px -1px; 
@@ -55,5 +54,5 @@ html {
     transition: all .5s ease-in-out;
 }
   
-@keyframes bounce { 0% { transform: translateY(0); } 100% { transform: translateY(-10px); } }
-.header-icon { animation: bounce 0.8s infinite alternate; }
+@keyframes bounce-down { 0% { transform: translateY(0); } 100% { transform: translateY(-10px); } }
+.header-icon { animation: bounce-down 0.7s infinite alternate; }

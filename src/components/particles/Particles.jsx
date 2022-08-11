@@ -44,13 +44,13 @@ function ParticlesHeader() {
                   area: 1080
                 },
                 limit: 0,
-                value: 400,
+                value: 600,
               },
               opacity: {
                 animation: {
                   enable: true,
                   minimumValue: 0.5,
-                  speed: 2,
+                  speed: 3,
                   sync: false,
                 },
                 random: {

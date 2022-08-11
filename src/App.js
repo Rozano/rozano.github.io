@@ -6,6 +6,7 @@ import Education from './components/education/Education'
 import Navbar from './components/navbar/Navbar'
 import Projects from './components/projects/Projects'
 import Skills from './components/skills/Skills'
+import Contact from './components/contact/Contact'
 import Footer from './components/footer/Footer'
 import AOS from 'aos'
 import 'aos/dist/aos.css'
@@ -21,6 +22,8 @@ function App() {
       <Experience />
       <Projects />
       <Skills />
+      <Contact />
+      <Footer />
     </div>
   );
 }

@@ -27,6 +27,22 @@
   margin-top: -20px;
 }
 
+.line-light-lite {
+  border-top: 1px solid #FAF9F6;
+  width: 5%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: -15px;
+}
+
+.line-dark-lite {
+  border-top: 1px solid #36454F;
+  width: 5%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: -15px;
+}
+
 .header-title-dark {
   color: #36454F;
   font-size: 30px;
