@@ -17,7 +17,7 @@ const Experience = () => {
                         <img src={Reggora} alt='photo'/>
                         <p>February 2021 - May 2022</p>
                     </div>
-                    <div className='experience-desc' data-aos="flip-left" data-aos-easing="ease-out" data-aos-duration="1000">
+                    <div className='experience-desc' data-aos="fade-down-left" data-aos-easing="ease-out" data-aos-duration="1000">
                         <h3>Reggora</h3>
                         <p><i>Software QA Engineer</i></p>
                         <p>Tested new features and fixes locally, in development, staging, and production across multiple teams. Devised and executed 100+ cohesive, detailed manual test plans for new features being developed across web
@@ -33,7 +33,7 @@ const Experience = () => {
                         <img src={WIT} alt='photo'/>
                         <p>September 2020 - December 2020</p>
                     </div>
-                    <div className='experience-desc' data-aos="flip-left" data-aos-easing="ease-out" data-aos-duration="1000">
+                    <div className='experience-desc' data-aos="fade-down-left" data-aos-easing="ease-out" data-aos-duration="1000">
                         <h3>Wentworth Institute of Technology</h3>
                         <p><i>Mobile Application Developer</i></p>
                         <p>Developed mobile application using Android Studio to cater to individuals intending to use Traditional Chinese Medicine’s tongue diagnosis via mobile camera. Worked closely with partner and professor to ensure application could recognize tongues using PyTorch and convolutional neural networks.</p>
@@ -48,7 +48,7 @@ const Experience = () => {
                         <img src={Dolume} alt='photo'/>
                         <p>January 2019 - April 2019</p>
                     </div>
-                    <div className='experience-desc' data-aos="flip-left" data-aos-easing="ease-out" data-aos-duration="1000">
+                    <div className='experience-desc' data-aos="fade-down-left" data-aos-easing="ease-out" data-aos-duration="1000">
                         <h3>Dolume</h3>
                         <p><i>Technology Consultant Intern</i></p>
                         <p>Oversaw dozens of employee tickets with Spiceworks, communicated between multiple partners for network management, and created thin clients for employee usage. Developed a communication network to replace pagers to improve contact. Maintained clients’ servers and access points.</p>

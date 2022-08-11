@@ -7,7 +7,7 @@ const Skills = () => {
             <h2 className='header-title-dark'>Skills</h2>
             <div className='line-dark' />
             <div className='skills-container'>
-                <div className='skills-list' data-aos="flip-down" data-aos-easing="ease-out" data-aos-duration="1000" style={{ listStyle: 'none' }}>
+                <div className='skills-list' data-aos="fade-down" data-aos-easing="ease-out" data-aos-duration="1000" style={{ listStyle: 'none' }}>
                     <p>Jira</p>
                     <p>Git</p>
                     <p>Postman</p>
@@ -20,7 +20,7 @@ const Skills = () => {
                     <p>Sparkpost</p>
                     <p>CI/CD</p>
                 </div>
-                <div className='skills-list' data-aos="flip-up" data-aos-easing="ease-out" data-aos-duration="1000" style={{ listStyle: 'none' }}>
+                <div className='skills-list' data-aos="fade-up" data-aos-easing="ease-out" data-aos-duration="1000" style={{ listStyle: 'none' }}>
                     <p>JavaScript</p>
                     <p>Java</p>
                     <p>Python</p>
