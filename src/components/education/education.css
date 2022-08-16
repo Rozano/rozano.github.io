@@ -5,6 +5,12 @@
     color: #FAF9F6;
 }
 
+.education-container {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 .school-container {
     display: flex;
     flex-direction: row;
@@ -24,17 +30,21 @@
 .school-desc-1 {
     text-align: left;
     margin-left: 50px;
+    width: 300px;
+    min-width: 100px;
+    margin-right: 20px;
 }
 
 .school-desc-2 {
     text-align:right;    
-    margin-right: 100px;
+    width: 300px;
+    min-width: 100px;
+    margin-left: 20px;
 }
 
 .school-logo {
     width: 150px;
     height: 150px;
-    margin-left: 100px;
 }
 
 .school-location {
