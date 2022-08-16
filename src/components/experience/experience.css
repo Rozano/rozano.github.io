@@ -1,54 +1,61 @@
 .experience {
-    background-color: #FAF9F6;
-    padding: 50px;
-    color: #36454F;
+  background-color: #faf9f6;
+  padding: 50px;
+  color: #36454f;
+}
+
+.experience-container {
+    width: 97%;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .experience-entry {
-    display: flex;
-    justify-content:space-between;
+  display: flex;
+  justify-content: space-between;
 }
 
 .experience-desc {
-    background-color: #36454F;
-    color: #FAF9F6;
-    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px, rgba(0, 0, 0, 0.06) 0px 2px 4px -1px; 
-    text-align: left;
-    width: 500px;
-    height: auto;
-    padding: 20px;
-    margin-right: 100px;
+  background-color: #36454f;
+  color: #faf9f6;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px,
+    rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
+  text-align: left;
+  width: 500px;
+  height: auto;
+  padding: 20px;
+  margin-right: 100px;
 }
 
 .experience-left {
-    display: flex;
-    flex-direction: row;
-    margin-left: 100px;
+  display: flex;
+  flex-direction: row;
+  margin-left: 100px;
 }
 
 .experience-left p {
-    padding: 25px 0;
-    margin-left: 25px;
+  padding: 25px 0;
+  margin-left: 25px;
 }
 
 .experience-left img {
-    width: 100px;
-    height: 100px;
-    border: 2px solid #36454F;
-    border-radius: 100px;
+  width: 100px;
+  height: 100px;
+  border: 2px solid #36454f;
+  border-radius: 100px;
 }
 
 #mid {
-    margin-top: 50px;
-    margin-bottom: 50px;
+  margin-top: 50px;
+  margin-bottom: 50px;
 }
 
 .experience-location {
-    display: inline-flex;
-    color: #FAF9F6;
+  display: inline-flex;
+  color: #faf9f6;
 }
 
 .experience-location-icon {
-    padding-top: 15px;
-    padding-right: 15px;
+  padding-top: 15px;
+  padding-right: 15px;
 }
